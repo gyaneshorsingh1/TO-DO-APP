@@ -17,7 +17,7 @@ h2{
 .container{
     padding: 30px;
     margin: 25px;
-    min-height: 400px;
+    min-height: 600px;
     width: 600px;
     border-radius: 12px;
     background-color: white;
@@ -27,7 +27,7 @@ h2{
     height: 40px;
     width: 90%;
     margin: 15px auto 25px;
-    
+    border-radius: 50px;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -111,4 +111,11 @@ span {
 span:hover {
     
     background-color: rgba(196, 150, 150, 0.751);
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        min-height: 90vh;
+    }
 }
